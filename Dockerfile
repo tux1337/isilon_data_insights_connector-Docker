@@ -1,4 +1,5 @@
 FROM debian:stretch
+LABEL MAINTAINER="tux1337"
 
 RUN apt-get update && apt-get upgrade -y
 
